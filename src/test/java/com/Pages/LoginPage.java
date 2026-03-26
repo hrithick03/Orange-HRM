@@ -8,8 +8,8 @@ public class LoginPage {
 	 By password= By.name("password");
 	 By titleText = By.xpath("//h5[normalize-space()='Login']");
 	 By login = By.xpath("//button[normalize-space()='Login']");
-	 By errorMessage = By.xpath("//p[@class='oxd-text ocd-text--p oxd-alert-content-text']");
-	 By dashboard =By.xpath("//h6[[text()='Dashboard']");
+	 By errorMessage = By.xpath("//p[@class='oxd-text oxd-text--p oxd-alert-content-text']");
+	 By dashboard =By.xpath("//h6[text()='Dashboard']");
 	 public LoginPage(WebDriver driver) {
 	        this.driver = driver;
 	    }

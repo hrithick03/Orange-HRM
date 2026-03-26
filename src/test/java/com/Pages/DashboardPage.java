@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 public class DashboardPage {
     WebDriver driver;
-    By dashboardPageTitle = By.xpath("//h6[normalize-space()='Dashboard']");
+    By dashboardPageTitle = By.xpath("//h6[text()='Dashboard']");
     By options = By.xpath("//p[normalize-space()='Assign Leave']");
     public DashboardPage(WebDriver driver) {
         this.driver = driver;
