@@ -1,0 +1,6 @@
+com\Utilities\DPExcel.class
+com\Tests\LoginTests.class
+com\Pages\DashboardPage.class
+com\Pages\LoginPage.class
+com\Tests\DashboardTests.class
+com\Tests\BaseTest.class
